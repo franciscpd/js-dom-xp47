@@ -1,0 +1,16 @@
+#cadastroCliente {
+  display: flex;
+  flex-direction: column;
+}
+
+#cadastroCliente > input,
+#cadastroCliente > button {
+  margin: 5px;
+  width: fit-content;
+}
+
+.required {
+  border: 1px solid red;
+  border-radius: 2px;
+  outline: none;
+}

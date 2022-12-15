@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM</title>
+    <link rel="stylesheet" href="./assets/css/index.css" />
+  </head>
+  <body>
+    <form id="cadastroCliente">
+      <input required type="text" id="nome" name="nome" placeholder="nome" />
+      <input
+        required
+        type="email"
+        id="email"
+        name="email"
+        placeholder="email"
+      />
+      <input
+        required
+        type="password"
+        id="senha"
+        name="senha"
+        placeholder="senha"
+      />
+      <div><input type="checkbox" id="verSenha" /> Ver senha</div>
+      <input
+        required
+        type="date"
+        id="dataNascimento"
+        name="dataNascimento"
+        placeholder="data de nascimento"
+      />
+      <button type="submit">Cadastrar</button>
+    </form>
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>
